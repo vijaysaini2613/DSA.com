@@ -1,0 +1,18 @@
+//   QUESTION 05 ----REVERSE AN ARRAY-----
+
+
+class Solution {
+  public:
+    void reverseArray(vector<int> &arr) {
+        int L=0;
+        int R=arr.size()-1;
+        while(R>L){
+            swap(arr[L],arr[R]);
+            L+=1;
+            R-=1;
+        }
+        
+        // code here
+        
+    }
+};
