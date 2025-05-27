@@ -4,7 +4,11 @@ Welcome to **DSA.COM** – my daily commitment to mastering Data Structures and 
 
 This repository is a personal log of my consistent DSA practice. Each folder contains problems categorized by topic, with well-documented solutions in multiple languages.
 
----
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ## 🚀 Goals
 
@@ -13,7 +17,34 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 - Revisit and optimize older solutions
 - Build a strong foundation for interviews and competitive coding
 
---
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+## 📈 Progress Tracker (Sample)
+
+| Date       | Topic  | Problem Name            | Language |
+| ---------- | ------ | ----------------------- | -------- |
+| 2025-05-06 | Patter | Triangle                | C++      |
+| 2025-05-07 | Arrays | Second Largest in Array | C++      |
+| 2025-05-25 | Arrays | Move All Zeroes to End  | C++      |
+| 2025-05-26 | Arrays | Reverse an Array        | C++      |
+| 2025-05-27 | Arrays | Rotate an Array         | C++      |
+
+---
+
+## 🔗 Connect with Me
+
+- GitHub: https://github.com/vijaysaini2613
+- LinkedIn: Vijay kumar saini
+- Email: sainivijay2601@gmail.com
+
+---
+
+> "Consistency is more important than intensity." – Keep coding!
 
 
 
