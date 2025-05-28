@@ -28,11 +28,12 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 
 | Date       | Topic  | Problem Name            | Language |
 | ---------- | ------ | ----------------------- | -------- |
-| 2025-05-06 | Patter | Triangle                | C++      |
-| 2025-05-07 | Arrays | Second Largest in Array | C++      |
-| 2025-05-25 | Arrays | Move All Zeroes to End  | C++      |
-| 2025-05-26 | Arrays | Reverse an Array        | C++      |
-| 2025-05-27 | Arrays | Rotate an Array         | C++      |
+| 2025-05-06 | Patter | Triangle                | C++      |✅
+| 2025-05-07 | Arrays | Second Largest in Array | C++      |✅
+| 2025-05-25 | Arrays | Move All Zeroes to End  | C++      |✅
+| 2025-05-26 | Arrays | Reverse an Array        | C++      |✅
+| 2025-05-27 | Arrays | Rotate an Array         | C++      |✅
+| 2025-05-28 | Arrays | Next Permutation        | C++      |✅
 
 ---
 
