@@ -1,0 +1,20 @@
+//   QUESTION 09 ----Maximum Profit In One Transaction-----
+
+
+
+class Solution {
+  public:
+    int maximumProfit(vector<int> &prices) {
+        int n=prices.size();
+        int res=0;
+        int minPri=prices[0];
+        
+        for(int i=1;i<n;i++){
+            
+            minPri=min(minPri,prices[i]);
+            res=max(res,prices[i]-minPri);
+        }
+        return res;
+        
+    }
+};
