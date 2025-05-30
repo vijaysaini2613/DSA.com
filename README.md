@@ -36,6 +36,7 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 | 2025-05-28 | Arrays | Next Permutation        | C++      |✅
 | 2025-05-29 | Arrays | Max Profit              | C++      |✅
 | 2025-05-29 | Arrays | Max Profit in one trans | C++      |✅
+| 2025-05-30 | Arrays | Max Subarray            | C++      |✅ medium
 
 
 ---
