@@ -40,6 +40,18 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 
 
 ---
+
+## 📈 Progress Tracker (Sample)
+
+| Date       | Topic  | Problem Name            | Language |
+| ---------- | ------ | ----------------------- | -------- |
+| 2025-08-06 | STRING | IPLEMENT ATOI           | C++      |✅
+
+
+
+----
+
+
 sorry for 2 day not working because of some issues 
 
 ## 🔗 Connect with Me
