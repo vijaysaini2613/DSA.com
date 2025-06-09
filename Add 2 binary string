@@ -1,0 +1,54 @@
+//   QUESTION 14 ----ADD TWO BINARY STRING-----
+
+
+
+// User function template for C++
+class Solution {
+  public:
+  
+  string trimLeading0(const string &s){
+      size_t firstone = s.find('1');
+      return (firstone==string::npos) ? "0" : s.substr(firstone);
+  }
+    string addBinary(string& s1, string& s2) {
+        // your code here
+        
+        s1=trimLeading0(s1);
+        s2=trimLeading0(s2);
+        
+        int n=s1.size();
+        int m=s2.size();
+        
+        if(n<m){
+            return addBinary(s2,s1);
+        }
+        
+        int j=m-1;
+        int carry=0;
+        
+        for(int i=(n-1);i>-1;i--){
+            
+            int bit1=s1[i]-'0';
+            int sum=bit1+carry;
+            
+            if(j>=0){
+                int bit2=s2[j]-'0';
+                sum=sum+bit2;
+                j--;
+            }
+            
+            int bit=sum%2;
+            carry = sum/2;
+            
+            s1[i] = (char)(bit+'0');
+            
+        }
+        
+        if (carry>0){
+            s1 = '1' + s1;
+        }
+        
+        return s1;
+        
+    }
+};
