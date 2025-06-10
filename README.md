@@ -59,7 +59,7 @@ sorry for 2 day not working because of some issues
 ## 🔗 Connect with Me
 
 - GitHub: https://github.com/vijaysaini2613
-- LinkedIn: Vijay kumar saini
+- LinkedIn: https://www.linkedin.com/in/vijay-kumar-saini-515018293/
 - Email: sainivijay2601@gmail.com
 
 ---
