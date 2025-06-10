@@ -46,6 +46,8 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 | Date       | Topic  | Problem Name            | Language |
 | ---------- | ------ | ----------------------- | -------- |
 | 2025-08-06 | STRING | IPLEMENT ATOI           | C++      |✅
+| 2025-09-06 | STRING | ADD 2 BINARY            | C++      |✅
+| 2025-10-09 | STRING | ANAGRAM                 | C++      |✅
 
 
 
