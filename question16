@@ -1,0 +1,32 @@
+//   QUESTION 16 ----ANAGRAM-----
+
+
+
+class Solution {
+  public:
+  
+  const int MAX_CHAR = 26;
+    // Function is to check whether two strings are anagram of each other or not.
+    bool areAnagrams(string& s1, string& s2) {
+        vector<int> freq(MAX_CHAR, 0);
+        
+        for(char ch: s1){
+            freq[ch - 'a']++;
+        }
+        
+        for(char ch: s2){
+            freq[ch - 'a']--;
+        }
+        
+        for(int count: freq){
+            if(count != 0){
+                return false;
+        }
+            
+           
+        } 
+        return true;
+        // Your code here
+        
+    }
+};
