@@ -1,0 +1,17 @@
+//   QUESTION 19 ----Stones and Jewels-----
+
+
+class Solution {
+public:
+    int numJewelsInStones(string jewels, string stones) {
+        unordered_set<char> jewelstone(jewels.begin(), jewels.end());
+        int count=0;
+
+        for(char stone: stones){
+            if(jewelstone.count(stone)){
+                count++;
+            }
+        }
+        return count;
+    }
+};
