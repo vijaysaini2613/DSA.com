@@ -50,6 +50,15 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 | 2025-10-09 | STRING | ANAGRAM                 | C++      |✅
 
 
+----
+
+## 📈 Progress Tracker (Sample)
+
+| Date       | Topic  | Problem Name            | Language |
+| ---------- | ------ | ----------------------- | -------- |
+| 2025-15-06 | STRING | Burning tree            | C++      |✅
+| 2025-15-06 | STRING | Preorder Traversal      | C++      |✅
+
 
 ----
 
