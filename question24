@@ -1,0 +1,22 @@
+----------24 CHECK FOR BST-------------
+
+
+class Solution {
+  public:
+  bool bst(Node* root, long long minVal, long long maxVal){
+      if(root==nullptr) return true;
+      
+      if(root->data<=minVal || root->data>=maxVal) return false;
+      
+      return bst(root->left, minVal, root->data)&&
+             bst(root->right, root->data, maxVal);
+      
+      
+  }
+    // Function to check whether a Binary Tree is BST or not.
+    bool isBST(Node* root) {
+        return bst(root, LLONG_MIN, LLONG_MAX);
+        // Your code here
+        
+    }
+};
