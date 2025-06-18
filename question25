@@ -1,0 +1,41 @@
+---------------BFS of graph------------
+
+
+
+
+
+class Solution {
+  public:
+  
+  void bfshelp(queue<int>& q, vector<bool>& visit, vector<vector<int>> &adj, vector<int>& res){
+      if(q.empty()) return;
+      
+      int node = q.front();
+      q.pop();
+      res.push_back(node);
+      
+      for(int n : adj[node]){
+          if(!visit[n]){
+              visit[n]=true;
+              q.push(n);
+          }
+      }
+      
+      bfshelp(q, visit, adj, res);
+  }
+    // Function to return Breadth First Traversal of given graph.
+    vector<int> bfs(vector<vector<int>> &adj) {
+        int v = adj.size();
+        vector<bool> visit(v, false);
+        vector<int> res;
+        queue<int> q;
+        
+        visit[0] = true;
+        q.push(0);
+        
+        bfshelp(q, visit, adj, res);
+        return res;
+        // Code here
+        
+    }
+};
