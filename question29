@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int n = nums.size();
+        int left = 0;
+        int s = 0; //sum
+        int minLength = INT_MAX;
+
+        for (int right = 0; right < n; ++right) {
+            s += nums[right];
+
+            while (s >= target) {
+                minLength = min(minLength, right - left + 1);
+                s -= nums[left];
+                ++left;
+            }
+        }
+
+        return (minLength == INT_MAX) ? 0 : minLength;
+    }
+};
