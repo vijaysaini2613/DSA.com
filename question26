@@ -1,0 +1,30 @@
+class Solution {
+public:
+    int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
+        int alreadySatisfied = 0;
+        int n = customers.size();
+
+        // Step 1: Count customers already satisfied
+        for (int i = 0; i < n; ++i) {
+            if (grumpy[i] == 0) {
+                alreadySatisfied += customers[i];
+            }
+        }
+
+        // Step 2: Sliding window to find maximum gain by suppressing grumpiness
+        int extraSatisfied = 0, maxExtra = 0;
+
+        for (int i = 0; i < n; ++i) {
+            if (grumpy[i] == 1) {
+                extraSatisfied += customers[i];
+            }
+            // Remove the effect outside the window
+            if (i >= minutes && grumpy[i - minutes] == 1) {
+                extraSatisfied -= customers[i - minutes];
+            }
+            maxExtra = max(maxExtra, extraSatisfied);
+        }
+
+        return alreadySatisfied + maxExtra;
+    }
+};
