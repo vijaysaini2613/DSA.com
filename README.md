@@ -56,8 +56,8 @@ This repository is a personal log of my consistent DSA practice. Each folder con
 
 | Date       | Topic  | Problem Name            | Language |
 | ---------- | ------ | ----------------------- | -------- |
-| 2025-15-06 | STRING | Burning tree            | C++      |✅
-| 2025-15-06 | STRING | Preorder Traversal      | C++      |✅
+| 2025-15-06 | TREE   | Burning tree            | C++      |✅
+| 2025-15-06 | TREE   | Preorder Traversal      | C++      |✅
 
 
 ----
