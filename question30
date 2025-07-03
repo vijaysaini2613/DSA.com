@@ -1,0 +1,33 @@
+-----question30-------
+
+class Solution {
+public:
+    ListNode* swapNodes(ListNode* head, int k) {
+        ListNode* first = head;
+        ListNode* second = head;
+        ListNode* current = head;
+
+        int count = 1;
+
+        // Step 1: Find the k-th node from the beginning
+        while (count < k) {
+            first = first->next;
+            count++;
+        }
+
+        ListNode* kth_from_start = first;
+
+        // Step 2: Move one pointer from head and one from kth_from_start to get k-th from end
+        while (first->next != nullptr) {
+            first = first->next;
+            second = second->next;
+        }
+
+        ListNode* kth_from_end = second;
+
+        // Step 3: Swap values
+        swap(kth_from_start->val, kth_from_end->val);
+
+        return head;
+    }
+};
