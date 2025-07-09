@@ -1,0 +1,22 @@
+-----------
+
+
+class Solution {
+public:
+    int numRabbits(vector<int>& answers) {
+        unordered_map<int, int> freq;
+        int total = 0;
+
+        for (int a : answers) {
+            freq[a]++;
+        }
+
+        for (auto& [k, count] : freq) {
+            int groupSize = k + 1;
+            int groups = (count + k) 
+            total += groups * groupSize;
+        }
+
+        return total;
+    }
+};
